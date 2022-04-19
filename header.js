@@ -1,0 +1,37 @@
+var a="    <header>\
+        <section id='main'>\
+            <div class='main-picture'>\
+                <div class='container'>\
+                    <div class='row'>\
+                        <div class='col-md-12'>\
+                            <h1>　2022 IMOCamp</h1>\
+                            <p class='lead'>　　　　2022數學競賽研習營</p>\
+                        </div>\
+                    </div>\
+                </div>\
+            </div>\
+        </section>\
+        <div class='container'>\
+            <nav class='navbar navbar-expand-lg navbar-light'>\
+                <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>\
+                    <span class='navbar-toggler-icon'></span>\
+                </button>\
+                <div class='collapse navbar-collapse' id='navbarSupportedContent'>\
+                        <ul class='navbar-nav mr-auto'>\
+                        <li class='nav-item active'><a class='nav-link' href='index.html'>首頁</a></li>\
+                        <li><a class='nav-link' href='news.html'>最新消息</a></li>\
+                        <li class='nav-item dropdown'>\
+                            <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>關於研習營</a>\
+                            <div class='dropdown-menu' aria-labelledby='navbarDropdown'>\
+                                <a class='dropdown-item' href='people.html'>人物介紹</a>\
+                                <a class='dropdown-item' href='time.html'>上課時間表</a>\
+                                <a class='dropdown-item' href='QA.html'>Q&A</a>\
+                            </div>\
+                        <li><a class='nav-link' href='signup.html'>報名</a></li>\
+                        <li><a class='nav-link' href='contact.html'>聯絡我們</a></li>\
+                    </ul>\
+                </div>\
+            </nav>\
+        </div>\
+    </header>";
+document.write(a);

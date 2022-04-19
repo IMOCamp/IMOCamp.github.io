@@ -1,0 +1,79 @@
+h1, h2, h3, h4, h5, h6{font-family: 'Noto Sans TC', sans-serif;}
+p, a, input, label, textarea, span, ul, li{font-family: 'Open Sans', sans-serif;}
+body{min-height: 100%;}
+header{border-bottom: solid 1px #c9c9c9; background-color: #f3f3f3;}
+header li{margin: 0 10px;}
+#main .main-picture{
+    /*height: 10vw;*/
+    margin-bottom: 0px;
+    /*background-image: url(https://i.imgur.com/bLb69OS.jpg);
+    background-repeat: no-repeat;*/
+    background-color: gray;
+    background-size: 100%;
+    color: white;
+}
+#main h1{font-size: 64px; font-weight: bold;}
+#main p{font-size: 22px;}
+#main .container{
+    position: relative;
+    top: 5%;
+}
+.stats{
+    width: 50vw;
+    height: 80vw;
+}
+#content{
+    margin-top: 20px;
+    background-color: white;
+}
+#content h1{font-size: 36px; font-weight: bold; margin-top: 20px; margin-bottom: 20px;}
+#content h2{font-size: 24px; font-weight: bold; margin-top: 10px; margin-bottom: 10px;}
+#content li{margin-bottom: 10px;}
+footer{margin-top: 49px; background-color: gray; padding: 49px 0; height: 490px; color: white;}
+footer .container{
+    position: relative;
+    top 5%;
+}
+footer li{margin-bottom: 10px;}
+footer a{color: white;}
+.signup{
+	  position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 3em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 49px auto;
+	  width: 245px;
+	  text-align: center;
+
+	  -webkit-transition: all .1s ease;
+	  -moz-transition: all .1s ease;
+	  -ms-transition: all .1s ease;
+	  -o-transition: all .1s ease;
+	  transition: all .1s ease;
+}
+
+.signup:active{
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
+.signup:hover{
+    color: rgba(245, 245, 245, 1);
+}
+
+@media only screen and (max-width: 768px){
+}
