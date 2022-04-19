@@ -23,6 +23,7 @@ var a="    <header>\
                         <li class='nav-item dropdown'>\
                             <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>關於研習營</a>\
                             <div class='dropdown-menu' aria-labelledby='navbarDropdown'>\
+                                <a class='dropdown-item' href='intro.html'>營隊簡介</a>\
                                 <a class='dropdown-item' href='people.html'>人物介紹</a>\
                                 <a class='dropdown-item' href='time.html'>上課時間表</a>\
                                 <a class='dropdown-item' href='QA.html'>Q&A</a>\
