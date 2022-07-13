@@ -75,5 +75,13 @@ footer a{color: white;}
     color: rgba(245, 245, 245, 1);
 }
 
+table, th, td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+}
+
 @media only screen and (max-width: 768px){
 }
