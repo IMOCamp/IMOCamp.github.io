@@ -29,6 +29,7 @@ var a="    <header>\
                                 <a class='dropdown-item' href='QA.html'>Q&A</a>\
                             </div>\
                         <li><a class='nav-link' href='signup.html'>報名</a></li>\
+                        <li><a class='nav-link' href='admission.html'>錄取名單</a></li>\
                         <li><a class='nav-link' href='contact.html'>聯絡我們</a></li>\
                     </ul>\
                 </div>\
