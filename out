@@ -1,3 +1,3 @@
 正於現有瀏覽器工作階段中開啟。
 libva error: /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so init failed
-[32583:32583:0100/000000.362934:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1023148:1023148:0100/000000.656132:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
