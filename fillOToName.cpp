@@ -33,8 +33,17 @@ int main(){
             for(auto i=a.first; i<a.second; ++i)s+=*i;
             v.push_back(s);
         }
-		string &s=v[(int)v.size()-1], t="〇";
-		for(int i=0; i<3; ++i)s[i+3]=t[i];
+		int namecol=0;
+		string &s=v[namecol], u0, u1;
+		//string t="〇";
+		string t="<img src='arctan.png' width='20pt'>";
+		for(int i=0; i<3; ++i)u0.push_back(s[i]);
+		for(int i=6; i<s.size(); ++i)u1.push_back(s[i]);
+		s.clear();
+		for(char i:u0)s.push_back(i);
+		for(char i:t)s.push_back(i);
+		for(char i:u1)s.push_back(i);
+		//for(int i=0; i<3; ++i)s[i+3]=t[i];
 		for(string i:v)cout<<"<td>"<<i<<"</td>";
         cout<<"</tr>\n";
     }

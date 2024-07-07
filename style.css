@@ -75,6 +75,14 @@ footer a{color: white;}
     color: rgba(245, 245, 245, 1);
 }
 
+.pbutton{
+	color: black;
+}
+
+.pbutton:hover{
+	cursor: pointer;
+}
+
 table, th, td {
     border: 1px solid black;
     margin-left: auto;
