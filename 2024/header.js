@@ -4,8 +4,8 @@ var a="    <header>\
                 <div class='container'>\
                     <div class='row'>\
                         <div class='col-md-12'>\
-                            <h1>　2025 IMOCamp</h1>\
-                            <p class='lead'>　　　　2025數學競賽研習營</p>\
+                            <h1>　2024 IMOCamp</h1>\
+                            <p class='lead'>　　　　2024數學競賽研習營</p>\
                         </div>\
                     </div>\
                 </div>\
@@ -41,8 +41,7 @@ var a="    <header>\
 						<li class='nav-item dropdown'>\
                             <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>歷屆資料</a>\
                             <div class='dropdown-menu' aria-labelledby='navbarDropdown'>\
-								<a class='dropdown-item' href='index.html'>2025</a>\
-								<a class='dropdown-item' href='2024/index.html'>2024</a>\
+								<a class='dropdown-item' href='index.html'>2024</a>\
 								<a class='dropdown-item' href='2023/index.html'>2023</a>\
                                 <a class='dropdown-item' href='2022/index.html'>2022</a>\
                             </div>\

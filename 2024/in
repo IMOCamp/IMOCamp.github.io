@@ -1,0 +1,12 @@
+令 $a_1,a_2,\dotsc,a_n$, $b_1,b_2,\dotsc,b_n$ 為兩組非嚴格遞減的非負整數，且 $\sum_{i=1}^n a_i=\sum_{i=1}^n b_i =m>0$ 。
+    
+    令 $a'_i$ 為 滿足 $a_k\geq i$ 的$k$ 的數量，$b'_i$ 亦同。證明：若
+    \[a'_1\geq b'_1,\]
+    \[a'_1+a'_2\geq b'_1+b'_2,\]
+    \[\vdots\]
+    \[a'_1+\cdots+a'_m\geq b'_1+\cdots+b'_m,\]
+    則
+    \[b_1\geq a_1,\]
+    \[b_1+b_2\geq a_1+a_2,\]
+    \[\vdots\]
+    \[b_1+\cdots+b_n\geq a_1+\cdots+a_n.\]
