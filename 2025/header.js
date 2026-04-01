@@ -5,7 +5,7 @@ var a="    <header>\
                     <div class='row'>\
                         <div class='col-md-12'>\
                             <h1>　2025 IMOCamp</h1>\
-                            <p class='lead'>　　　　2025數學競賽研習營</p>\
+                            <p class='lead'>　　　　2049數學競賽研習營</p>\
                         </div>\
                     </div>\
                 </div>\
