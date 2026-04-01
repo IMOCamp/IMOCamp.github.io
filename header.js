@@ -25,7 +25,7 @@ var a="    <header>\
                             <div class='dropdown-menu' aria-labelledby='navbarDropdown'>\
                                 <a class='dropdown-item' href='intro.html'>營隊簡介</a>\
                                 <a class='dropdown-item' href='time.html'>上課時間表</a>\
-								<a class='dropdown-item' href='janestreet.html'>贊助廠商</a>\
+								<!-- <a class='dropdown-item' href='janestreet.html'>贊助廠商</a> -->\
                                 <a class='dropdown-item' href='QA.html'>Q&A</a>\
                             </div>\
 						</li>\
