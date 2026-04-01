@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300@400@700@900&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/8182c5987b.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<title>IMOC</title>
+		<style>
+			#content { background: white; padding: 20px; }
+
+			.katex span{
+				font-family: inherit;
+			}
+
+			.katex-display { margin: 1em 0; }
+		</style>
+
+	</head>
+	<body>
+		<script src='header.js'></script>
+		<section id='content'>
+			<div class='container'>
+				<div class='row'>
+					<div class='col-md-10 offset-md-1'>
+						<h1>報名須知</h1>
+						<ul>
+							<li>請填寫<a href='https://forms.gle/dfYuAMkx9oeTxsi86', target='_blank'>報名表單</a>。(作答狀況是讓我們了解你的程度最有效的方法喔)</li>
+							<li>報名截止日期為 2026/6/14 (日) 23:59 。</li>
+							<li>活動費用為每位學員新台幣九千元整 (暫定)，住宿費待定。(附上低收入戶證明，可繳交較少的報名費；同理，附上高收入戶證明，可繳交較多的報名費)。</li>
+							<li>預計招收人數為 30~60 人 (並非實際確定招收人數，會依照報名踴躍狀況以及學生的程度來稍作做調整)，報名結束後並經過工作團隊審查，決定錄取名單。請錄取的學員於錄取名單公佈後一週內完成匯款。</li>
+							<li>我們會根據你的作答狀況、自傳以及競賽經歷來篩選錄取的學員，另外，題目可以與其他人討論，但是禁止任何形式的抄襲。</li>
+							<li>如果你曾經獲選參加<b>第二階段選訓營</b>，則不需繳交解答。</li>
+						</ul>
+						<h1>題目</h1>
+						<p>我們特意出了一些不需要數學定理及太深的數學背景便能夠作答的題目，因為我們期望能夠看到的是您的思路過程。然而即便如此，這些題目也並不一定是那麼地容易；事實上，在一題上面耗費幾個小時在更高等的數學和數學競賽中是常有的事情，建議您能先自己探索這些題目的有趣之處。您可以與同儕們討論交流，但請務必以自己的方式寫下證明過程。數學式建議使用 LaTeX 或使用 Word 的數學式編輯器，但記得要轉成 PDF 上傳。</p>
+
+						<!-- <a href="problems.pdf" download>下載題目 (PDF)</a> -->
+
+						<div id="problem-container"> </div>
+
+						<script>
+							async function renderPage() {
+								try {
+									const response = await fetch('problems.md');
+									let mdText = await response.text();
+									mdText = mdText.replace(/\\\[/g, "\\\\[").replace(/\\\]/g, "\\\\]");
+									mdText = mdText.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+									const container = document.getElementById('problem-container');
+									container.innerHTML = marked.parse(mdText);
+									renderMathInElement(container, {
+										delimiters: [
+											{left: "$$", right: "$$", display: true},
+											{left: "$", right: "$", display: false},
+											{left: "\\(", right: "\\)", display: false},
+											{left: "\\[", right: "\\]", display: true} 
+										],
+										throwOnError: false
+									});
+
+								} catch (err) {
+									console.log(err);
+									document.getElementById('problem-container').innerHTML = "讀取題目失敗，請聯絡工作人員";
+								}
+							}
+							renderPage();
+						</script>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src='footer.js'></script>
+	</body>
+</html>

@@ -18,7 +18,7 @@ var a="    <header>\
                 </button>\
                 <div class='collapse navbar-collapse' id='navbarSupportedContent'>\
                         <ul class='navbar-nav mr-auto'>\
-                        <li class='nav-item active'><a class='nav-link' href='index.html'>首頁</a></li>\
+                        <li class='nav-item active'><a class='nav-link' href='../index.html'>首頁</a></li>\
                         <li><a class='nav-link' href='news.html'>最新消息</a></li>\
                         <li class='nav-item dropdown'>\
                             <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>關於研習營</a>\
@@ -40,10 +40,11 @@ var a="    <header>\
 						<li class='nav-item dropdown'>\
                             <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>歷屆資料</a>\
                             <div class='dropdown-menu' aria-labelledby='navbarDropdown'>\
-								<a class='dropdown-item' href='index.html'>2025</a>\
-								<a class='dropdown-item' href='2024/index.html'>2024</a>\
-								<a class='dropdown-item' href='2023/index.html'>2023</a>\
-                                <a class='dropdown-item' href='2022/index.html'>2022</a>\
+								<a class='dropdown-item' href='../index.html'>2026</a>\
+								<a class='dropdown-item' href='../2025/index.html'>2025</a>\
+								<a class='dropdown-item' href='../2024/index.html'>2024</a>\
+								<a class='dropdown-item' href='../2023/index.html'>2023</a>\
+                                <a class='dropdown-item' href='../2022/index.html'>2022</a>\
                             </div>\
 						</li>\
                         <li><a class='nav-link' href='contact.html'>聯絡我們</a></li>\

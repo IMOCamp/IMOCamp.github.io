@@ -4,8 +4,8 @@ var a="    <header>\
                 <div class='container'>\
                     <div class='row'>\
                         <div class='col-md-12'>\
-                            <h1>　2022 IMOCamp</h1>\
-                            <p class='lead'>　　　　2022數學競賽研習營</p>\
+                            <h1>　2026 IMOCamp</h1>\
+                            <p class='lead'>　　　　2026 數學競賽研習營</p>\
                         </div>\
                     </div>\
                 </div>\
@@ -18,14 +18,14 @@ var a="    <header>\
                 </button>\
                 <div class='collapse navbar-collapse' id='navbarSupportedContent'>\
                         <ul class='navbar-nav mr-auto'>\
-                        <li class='nav-item active'><a class='nav-link' href='../index.html'>首頁</a></li>\
+                        <li class='nav-item active'><a class='nav-link' href='index.html'>首頁</a></li>\
                         <li><a class='nav-link' href='news.html'>最新消息</a></li>\
                         <li class='nav-item dropdown'>\
                             <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>關於研習營</a>\
                             <div class='dropdown-menu' aria-labelledby='navbarDropdown'>\
                                 <a class='dropdown-item' href='intro.html'>營隊簡介</a>\
-                                <a class='dropdown-item' href='people.html'>人物介紹</a>\
                                 <a class='dropdown-item' href='time.html'>上課時間表</a>\
+								<a class='dropdown-item' href='janestreet.html'>贊助廠商</a>\
                                 <a class='dropdown-item' href='QA.html'>Q&A</a>\
                             </div>\
 						</li>\
@@ -33,18 +33,18 @@ var a="    <header>\
                             <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>報名資訊</a>\
                             <div class='dropdown-menu' aria-labelledby='navbarDropdown'>\
                                 <a class='dropdown-item' href='signup.html'>報名題目</a>\
-                                <a class='dropdown-item' href='admission.html'>錄取名單</a>\
-                                <a class='dropdown-item' href='money.html'>匯款資訊</a>\
+								<!-- <a class='dropdown-item' href='admission.html'>錄取名單</a> -->\
+                                <!-- <a class='dropdown-item' href='money.html'>匯款資訊</a> -->\
                             </div>\
 						</li>\
 						<li class='nav-item dropdown'>\
                             <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>歷屆資料</a>\
                             <div class='dropdown-menu' aria-labelledby='navbarDropdown'>\
-                                <a class='dropdown-item' href='../index.html'>2026</a>\
-                                <a class='dropdown-item' href='../2025/index.html'>2025</a>\
-                                <a class='dropdown-item' href='../2024/index.html'>2024</a>\
-								<a class='dropdown-item' href='../2023/index.html'>2023</a>\
-                                <a class='dropdown-item' href='../2022/index.html'>2022</a>\
+								<a class='dropdown-item' href='index.html'>2026</a>\
+								<a class='dropdown-item' href='2025/index.html'>2025</a>\
+								<a class='dropdown-item' href='2024/index.html'>2024</a>\
+								<a class='dropdown-item' href='2023/index.html'>2023</a>\
+                                <a class='dropdown-item' href='2022/index.html'>2022</a>\
                             </div>\
 						</li>\
                         <li><a class='nav-link' href='contact.html'>聯絡我們</a></li>\
