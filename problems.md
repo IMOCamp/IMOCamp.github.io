@@ -72,7 +72,7 @@ s=s_1s_2\cdots s_n \qquad (s_i\in\{1,2,3\}).
 給定三角形 $ABC$ 及其外接圓 $\Gamma$，$\angle A=60^\circ$，$I$ 為 $ABC$ 內心，$K$ 是 $BIC$ 垂心，$BI, CI$ 交 $\Gamma$ 於 $E, F$，證明 $AK, EF, BC$ 三線共點。
 
 ## **G2**
-給定三角形 $ABC$，$H,O$ 為 $ABC$ 垂心和外心，考慮 $T$ 使得 $BHTC$ 是等腰梯形，令 $AT$ 和 $BHC$ 外接圓再交於 $Q$，考慮 $QH$ 上一點滿足$\angle BAP=\angle QAC$，證明 $BQC$ 的外角平分線垂直於 $AO$。
+給定三角形 $ABC$，其中 $AB \lt AC$，$H, O$ 為 $ABC$ 垂心和外心，考慮 $T$ 使得 $BHTC$ 是等腰梯形，令 $AT$ 和 $BHC$ 外接圓再交於 $Q$，考慮 $QH$ 上一點滿足$\measuredangle BAP=\measuredangle QAC$，證明 $BPC$ 的外角平分線垂直於 $AO$。
 
 ## **G3**
 給定三角形 $ABC$，$H$ 是 $A$ 對 $BC$ 垂足，$I$ 是內心，$I_A$ 表示 $A-$旁心，其餘同理，要證明存在點 $\textrm{David}$ 滿足以下條件：
