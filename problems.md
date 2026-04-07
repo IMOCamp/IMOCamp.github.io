@@ -69,7 +69,7 @@ s=s_1s_2\cdots s_n \qquad (s_i\in\{1,2,3\}).
 給定三角形 $ABC$ 及其外接圓 $\Gamma$，$AB \lt AC$，$H, O$ 分別是 $ABC$ 的垂心和外心，設 $X$ 是 $AO$ 和 $BC$ 交點，設 $AHX$ 外接圓和 $BC, \Gamma$ 再交於 $P, Q$，證明 $PQ$ 垂直 $AO$。
 
 ## **G1**
-給定三角形 $ABC$ 及其外接圓 $\Gamma$，$\angle A=60^\circ$，$I$ 為 $ABC$ 內心，$K$ 是 $BIC$ 垂心，$BI, CI$ 交 $\Gamma$ 於 $E, F$，證明 $AK, EF, BC$ 三線共點。
+給定不等邊三角形 $ABC$ 及其外接圓 $\Gamma$，$\angle A=60^\circ$，$I$ 為 $ABC$ 內心，$K$ 是 $BIC$ 垂心，$BI, CI$ 交 $\Gamma$ 於 $E, F$，證明 $AK, EF, BC$ 三線共點。
 
 ## **G2**
 給定三角形 $ABC$，其中 $AB \lt AC$，$H, O$ 為 $ABC$ 垂心和外心，考慮 $T$ 使得 $BHTC$ 是等腰梯形，令 $AT$ 和 $BHC$ 外接圓再交於 $Q$，考慮 $QH$ 上一點滿足$\measuredangle BAP=\measuredangle QAC$，證明 $BPC$ 的外角平分線垂直於 $AO$。
