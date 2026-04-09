@@ -75,7 +75,7 @@ s=s_1s_2\cdots s_n \qquad (s_i\in\{1,2,3\}).
 給定三角形 $ABC$，其中 $AB \lt AC$，$H, O$ 為 $ABC$ 垂心和外心，考慮 $T$ 使得 $BHTC$ 是等腰梯形，令 $AT$ 和 $BHC$ 外接圓再交於 $Q$，考慮 $QH$ 上一點滿足$\measuredangle BAP=\measuredangle QAC$，證明 $BPC$ 的外角平分線垂直於 $AO$。
 
 ## **G3**
-給定三角形 $ABC$，$H$ 是 $A$ 對 $BC$ 垂足，$I$ 是內心，$I_A$ 表示 $A-$旁心，其餘同理，要證明存在點 $\textrm{David}$ 滿足以下條件：
+給定三角形 $ABC$，其中 $AB \lt AC$，$H$ 是 $A$ 對 $BC$ 垂足，$I$ 是內心，$I_A$ 表示 $A-$旁心，其餘同理，要證明存在點 $\textrm{David}$ 滿足以下條件：
 1. $\textrm{David} \in (AIH)\cap (I_AI_BI_C)$
 2. 過 $\textrm{David}$ 垂直 $BC$ 的直線、過 $\textrm{David}, B$ 且圓心在 $AB$ 的圓、過 $\textrm{David}, C$ 且圓心在 $AC$ 的圓共點。
 
