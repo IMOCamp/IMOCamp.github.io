@@ -53,7 +53,7 @@ Q(x)=P(x,-1,0),
 給定不等邊三角形 $ABC$ 及其外接圓 $\Gamma$，$\angle A=60^\circ$，$I$ 為 $ABC$ 內心，$K$ 是 $BIC$ 垂心，$BI, CI$ 交 $\Gamma$ 於 $E, F$，證明 $AK, EF, BC$ 三線共點。
 
 ## **G2**
-給定三角形 $ABC$，其中 $AB \lt AC$，$H, O$ 為 $ABC$ 垂心和外心，考慮 $T$ 使得 $BHTC$ 是等腰梯形，令 $AT$ 和 $BHC$ 外接圓再交於 $Q$，考慮 $QH$ 上一點滿足$\measuredangle BAP=\measuredangle QAC$，證明 $BPC$ 的外角平分線垂直於 $AO$。
+給定銳角三角形 $ABC$，其中 $AB \lt AC$，$H, O$ 為 $ABC$ 垂心和外心，考慮 $T$ 使得 $BHTC$ 是等腰梯形，令 $AT$ 和 $BHC$ 外接圓再交於 $Q$，考慮 $QH$ 上一點滿足$\measuredangle BAP=\measuredangle QAC$，證明 $BPC$ 的外角平分線垂直於 $AO$。
 
 
 ## **N0**
