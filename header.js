@@ -40,6 +40,7 @@
                                 <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown2' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>報名資訊</a>
                                 <div class='dropdown-menu' aria-labelledby='navbarDropdown2'>
                                     <a class='dropdown-item' href='signup.html'>報名題目</a>
+                                    <a class='dropdown-item' href='admission.html'>錄取名單</a>
                                 </div>
                             </li>
                             <li class='nav-item dropdown'>
